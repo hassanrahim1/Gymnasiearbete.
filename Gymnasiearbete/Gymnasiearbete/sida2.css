@@ -46,14 +46,70 @@ a {
 
 section div img {
     width: 100%;
-    display: relative;
     margin-top: -25px;
+    z-index: 1;
 }
 
 section div h1 {
-    display: absolute;
-    bottom: 0;
     color: white;
     font-size: 50px;
     font-weight: bold;
+    margin-top: -200px;
+    z-index: 100;
+    text-align: center;
+}
+
+section div {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.main1 {
+    background-color: #A9A9A9;
+    padding-bottom: 75px;
+}
+
+.divclass {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.main1 div img {
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.main1 div h1 {
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.main1 div p {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.divbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.main1 div button {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    background-color: #515862;
+    border: none;
+    padding: 7.5px 15px 7.5px 15px;
+}
+
+.text {
+    opacity: 0;
+}
+
+main {
+    background-color: #515862;
+    padding: 10px 0 10px 0;
 }
