@@ -8,12 +8,16 @@ header {
     background-color: #8C7E73;
 }
 
-main {
+nav {
     background-color: #8C8B73;
     margin-top: -25px;
     padding-left: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
 .navbar1 {
     color: white;
@@ -38,4 +42,114 @@ main {
     font-weight: bold;
     font-style: italic;
     margin-left: 180px;
+}
+
+main h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading {
+    margin-top: -25.5px;
+}
+
+main .div1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 100px;
+}
+
+.div3 {
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+}
+
+.div3 img{
+    width: 130px;
+
+}
+
+.p1 {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 10px 0;
+    text-align: center;
+    width: 150px;
+}
+
+.minidiv1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    place-items: center;
+}
+
+.minidiv2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    place-items: center;
+}
+
+.p2 {
+    background-color: #F6F6F6;
+    padding: 0 0 130px 0;
+    border-radius: 25px;
+    margin-right: auto;
+}
+
+.p2 p {
+    padding: 10px;
+}
+
+main div h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+main {
+    width: 65%;
+    margin: auto;
+
+}
+
+.divPadding {
+    padding: 10px;
+    background-color: #D9D9D9;
+    margin-top: -20px;
+}
+
+.knapp {
+    background-color: #F6F6F6;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    padding: 6.5px 40px;
+}
+
+.div10 {
+    display: grid;
+    place-items: center;
+    height: 20%;
+}
+
+.div10 button {
+    margin-right: auto;
+}
+
+footer {
+    background-color: #515862;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+}
+
+.text {
+    opacity: 0;
 }
